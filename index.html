@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)https://latynka.xyz/?l=haievytsia -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="Qırım ≠ kirim">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Транслітерація кримськотатарської українською">
+    <meta property="og:image" content="https://cor-bee.github.io/Qirim/images/cover.png">
+    <meta property="og:site_name" content="latynka">
+
+    <title>Qırım ≠ kirim</title>
+    <meta name="description" content="Транслітерація кримськотатарської українською">
+    <meta name="keywords" content="крим, qırım, кірім, qirim">
+
+    <link href="styles/bootstrap.min.css" rel="stylesheet">
+    <link href="styles/custom.css" rel="stylesheet">
+    <link href="styles/dark.css" rel="stylesheet">
+    <link href="images/icon_32.png" rel="icon shortcut" sizes="3232">
+    <link href="images/icon_192.png" rel="apple-touch-icon">
+
+    <script src="scripts/showdown.min.js"></script>
+    <script src="scripts/t-literator-js.js"></script>
+    <script src="scripts/templates.js"></script>
+    <script src="scripts/custom.js"></script>
+
+  </head>
+  
+  <body data-new-gr-c-s-check-loaded="14.1182.0" data-gr-ext-installed="" data-gr-ext-disabled="forever">
+    <header class="text-center pt-3 pb-2 py-lg-3">
+      <h1><a href="/" title="Qırım ≠ kirim" style="color: #2e77e4; text-decoration: none; font-family: 'e-Ukraine', e-Ukraine;" class="d-inline-block title">Qırım ≠ kirim</a></h1>
+      <a title="Нічний режим" class="icon theme-control"></a>
+    </header>
+
+    <section class="container-fluid px-lg-4">
+      <div class="row row-cols-1 row-cols-lg-2 mb-4">
+        <div class="col order-1 order-l-1 h-scroll">
+          <div class="h-scroll-container">
+            <ul class="nav nav-pills lh-1 pb-3 small h-scroll-content" id="sourceTemplate">
+              <!-- Source tempaltes here -->
+            </ul>
+          </div>
+          <div class="fadeout fadeout-left d-none"></div>
+          <div class="fadeout fadeout-right"></div>
+        </div>
+        
+        <div class="col order-3 order-lg-2 h-scroll">
+          <div class="h-scroll-container">
+            <ul class="nav nav-pills lh-1 pb-3 small h-scroll-content expandable" id="latinType">
+              <!-- Latin types here -->
+          </div>
+          <div class="fadeout fadeout-left d-none"></div>
+          <div class="fadeout fadeout-right"></div>
+        </div>
+       
+        <div class="col order-2 order-lg-3 mb-4 mb-lg-0" id="sourceContainer">
+          <textarea class="p-3 pt-2 pt-lg-3 fs-5" placeholder="Qırımtatar tilinde oqumaq - qolay!" id="source" style="min-height: 100%; height: 128px;"></textarea>
+          <a title="Очистити" class="icon icon-reset d-none"></a>
+          <div id="sourceCount" class="smaller faded position-absolute bottom-0 end-0 mb-1 me-4 d-none"><span>0</span> симв.</div>
+        </div>
+
+        <div class="col order-4 order-lg-4" id="destinationContainer">
+          <div class="p-4 p-lg-3 bg-light h-100 position-relative">
+            <ul class="mb-0 float-end icons d-none">
+              <li><a title="Копіювати текст" class="icon icon-copy"></a></li>
+              <li><a title="Копіювати посилання" class="icon icon-link"></a></li>
+            </ul>
+            <p class="text-muted fs-5" id="destination">Қиримтатар тилінде оқумақ - қолай!</p>
+            <div id="destinationCount" class="smaller faded position-absolute bottom-0 end-0 mb-1 me-4 d-none"><span>106</span> симв.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="container-lg">
+      <div class="row row-cols-1 justify-content-center">
+         <!-- <div class="col px-4 mb-3 col-lg-10 col-xl-8 small">
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="abbr">
+            <label class="form-check-label" for="abbr">Вважати КАПС абревіатурою</label>
+          </div>
+        </div>  -->
+
+        <article class="col col-lg-10 col-xl-8 mb-4 px-4 small fst-italic" id="desc">
+          <div class="row">
+            <div class="col col-12 col-lg-4 order-lg-2 pb-3">
+              <p id="desc-txt"></p>
+              <a href="https://uk.wikipedia.org/wiki/%D0%9A%D1%80%D0%B8%D0%BC%D1%81%D1%8C%D0%BA%D0%BE%D1%82%D0%B0%D1%82%D0%B0%D1%80%D1%81%D1%8C%D0%BA%D0%B0_%D0%BC%D0%BE%D0%B2%D0%B0#%D0%92%D0%B8%D0%BC%D0%BE%D0%B2%D0%B0_%D0%BB%D1%96%D1%82%D0%B5%D1%80" class="">Детальніше</a>
+            </div>
+            
+            <div class="col col-12 col-lg-8 order-lg-1">
+              <table id="desc-alphabet" class="table table-sm">
+                <tbody>
+                  <tr>
+                    <td colspan="6"></td>
+                  </tr>
+                  <tr>
+                    <th>А а</th>
+                    <td>А а</td>
+                    <th>I ı</th>
+                    <td>И и</td>
+                    <th>Q q</th>
+                    <td>Қ қ</td>
+                  </tr>
+                  <tr>
+                    <th>Â â</th>
+                    <td>Я я</td>
+                    <th>İ i</th>
+                    <td>І і, и, ї</td>
+                    <th>R r</th>
+                    <td>Р р</td>
+                  </tr>
+                  <tr>
+                    <th>B b</th>
+                    <td>Б б</td>
+                    <th>J j</th>
+                    <td>Ж ж</td>
+                    <th>S s</th>
+                    <td>С с</td>
+                  </tr>
+                  <tr>
+                    <th>C c</th>
+                    <td>Джь джь</td>
+                    <th>K k</th>
+                    <td>К к</td>
+                    <th>Ş ş</th>
+                    <td>Ш ш</td>
+                  </tr>
+                  <tr>
+                    <th>Ç ç</th>
+                    <td>Чь чь</td>
+                    <th>L l</th>
+                    <td>Л л</td>
+                    <th>T t</th>
+                    <td>Т т</td>
+                  </tr>
+                  <tr>
+                    <th>D d</th>
+                    <td>Д д</td>
+                    <th>M m</th>
+                    <td>М м</td>
+                    <th>U u</th>
+                    <td>У у, ӯ, ю</td>
+                  </tr>
+                  <tr>
+                    <th>E e</th>
+                    <td>Е е, є</td>
+                    <th>N n</th>
+                    <td>Н н</td>
+                    <th>Ü ü</th>
+                    <td>Ӱ ӱ, ӯ</td>
+                  </tr>
+                  <tr>
+                    <th>F f</th>
+                    <td>Ф ф</td>
+                    <th>Ñ ñ</th>
+                    <td>Ң ң</td>
+                    <th>V v</th>
+                    <td>В в</td>
+                  </tr>
+                  <tr>
+                    <th>G g</th>
+                    <td>Ґ ґ</td>
+                    <th>O o</th>
+                    <td>О о</td>
+                    <th>Y y</th>
+                    <td>Й й</td>
+                  </tr>
+                  <tr>
+                    <th>Ğ ğ</th>
+                    <td>Г г</td>
+                    <th>Ö ö</th>
+                    <td>Ӧ ӧ, ьо, о</td>
+                    <th>Z z</th>
+                    <td>З з</td>
+                  </tr>
+                </tbody>
+              </table>
+    
+              <!-- <dl id="desc-apostrophe" class="d-flex">
+                <dt class="me-2">Апостроф:</dt>
+                <dd>Не зберігається</dd>
+              </dl> -->
+              
+              <dl id="desc-symbols" class="d-flex d-none">
+                <dt class="me-2">Додаткові літери:</dt>
+                <dd></dd>
+              </dl>
+            </div>
+          </div>
+        </article> 
+
+        <article class="col col-lg-10 col-xl-8 px-4">
+          <div class="row">
+          
+            <div class="col col-12 col-lg-8 order-lg-1">
+              <h2>Як читати</h2>
+              <p><b>Қ</b> читається як тверде <b><i>к (q)</i></b> <a href="https://youtu.be/7myBaFEcto4?t=14">[відео]</a>.</p>
+              <p><b>Ң</b> читається як сполучення <b><i>ng (ŋ)</i></b> у слові <i>sing</i>.</p>
+              <p><b>Ӧ</b> читається як пом'якшене <b><i>о</i></b>.</p>
+              <p><b>Ӱ</b> читається як пом'якшене <b><i>у</i></b>.</p>
+              <p><b>Ӯ</b> читається як середнє між <b><i>у</i></b> та <b><i>и</i></b>.</p>
+            </div>
+            <div class="col col-12 col-lg-4 order-lg-2 pb-3">
+              <h2>Використані спрощення</h2>
+              <p><b>Қ</b> замінене на <b><i>х</i></b>.</p>
+              <p><b>Ң</b> замінене на <b><i>н</i></b>.</p>
+              <p><b>Ӧ</b> замінене на <b><i>о/ьо</i></b>.</p>
+              <p><b>Ӱ</b> замінене на <b><i>ю</i></b>.</p>
+              <p><b>Ӯ</b> замінене на <b><i>у</i></b>.</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <footer class="text-center py-4 pb-lg-5 text-muted small">
+      Створено <a href="https://t.me/pyshni">Іллею Пишняком</a> на базі проєкту <a href="https://latynka.xyz/">Українська латинка</a>
+      <ul class="d-lg-inline-block ms-lg-2 list-inline">
+        <li class="list-inline-item"><a href="https://www.facebook.com/artem.shevchenko.ukraine" class="text-reset">Розробка рушія</a></li>
+        <li class="list-inline-item"><a href="https://www.facebook.com/kokokostya/" class="text-reset">Дизайн та верстка</a></li>
+      </ul>
+    </footer>
+  
+</body></html>
