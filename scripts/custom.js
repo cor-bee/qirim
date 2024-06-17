@@ -368,21 +368,21 @@ document.addEventListener("DOMContentLoaded", function(e) {
   });
 
   // Cookies message
-  if (!JSON.parse(localStorage.getItem("cookiesAccepted"))) {
-    let msg = document.createElement("div");
-    msg.classList.add("alert", "alert-warning", "small");
-    msg.innerHTML = "Ми використовуємо Google Analytics, що зберігає кукі. Залишаючись на цій сторінці, ти погоджуєшся з цим.";
-    let btn = document.createElement("a");
-    btn.classList.add("link", "mx-1");
-    btn.innerText = "Погоджуюсь";
-    btn.addEventListener("click", function(e) {
-      localStorage.setItem("cookiesAccepted", JSON.stringify(true));
-      msg.remove();
-      e.preventDefault();
-    });
-    msg.append(btn);
-    document.body.append(msg);
-  }
+  // if (!JSON.parse(localStorage.getItem("cookiesAccepted"))) {
+  //   let msg = document.createElement("div");
+  //   msg.classList.add("alert", "alert-warning", "small");
+  //   msg.innerHTML = "Ми використовуємо Google Analytics, що зберігає кукі. Залишаючись на цій сторінці, ти погоджуєшся з цим.";
+  //   let btn = document.createElement("a");
+  //   btn.classList.add("link", "mx-1");
+  //   btn.innerText = "Погоджуюсь";
+  //   btn.addEventListener("click", function(e) {
+  //     localStorage.setItem("cookiesAccepted", JSON.stringify(true));
+  //     msg.remove();
+  //     e.preventDefault();
+  //   });
+  //   msg.append(btn);
+  //   document.body.append(msg);
+  // }
 
   // Set theme from cookies
   if (JSON.parse(localStorage.getItem("darkTheme"))) document.querySelector("body").classList.add("dark");
