@@ -8,25 +8,25 @@ const SOURCE_TEMPLATES = {
   "useful": {
     "name": "Корисні фрази",
     "isEssential": true,
-    "text": "Українська мова — Ukrayin tili\nТак — Ebet\nНі — Yoq\nПривіт! — Selâm! / Meraba!\nЯк справи? — İşler nasıl?\nЛаскаво просимо! — Hoş keldiñiz!\nДо побачення! — Sağlıqnen qalıñız! (кажуть тому, хто залишається), Sağlıqnen barıñız! (кажуть тому, хто йде)\nБудь ласка — Lütfen, Rica etem \nДякую — Sağ oluñız\nДаруйте — Bağışlañız\nПробачте — Afu etiñiz\nЯк вас звати? — Adıñız ne?\nСкільки? — Qaç?, Ne qadar?\nЯ (вас) не розумію. — Men (sizni) añlamayım.\nВи розмовляєте українською мовою? — Siz ukraince laf etesiñizmi?\nЯ не знаю. — Men bilmeyim"
-  },
-
-  "lviv": {
-    "name": "Львів",
-    "isEssential": true,
-    "text": "İlbav ya da Lviv (ukraince Львів) - Ukrainanıñ ğarbında büyük bir şeerdir, İlbav vilâyetiniñ merkezi."
-  },
-
-  "crh" : {
-    "name" : "Заповіт",
-    "isEssential" : true,
-    "text": "Vasiyet\n\nÖlsem, meni kömüñiz\nUkraynamnıñ bağrına,\nMezarımnı qazıñız\nQulan çöl toprağına.\nBileyim men qurğannıñ\nKöksünde yatqanımnı,\nDiñleyim Dneprniñ\nQuturıp aqqanını.\nNe vaqıt o duşman qanın\nUkrayna üzerinden\nYuvıp keter… tek o zaman\nTurarım men qabrimden —\nDua etip tek o zaman\nÇıqarım arş-alâğa,\nOña qadar mende yoqtır\nİşanç Alla-Taalâğa.\nMeni cıyıp, qalqıñız ve\nÜzüñiz buğavlarnı,\nZalım duşman qanı ile\nYuvuñız diyarlarnı,\nUlu, ür bir ailege\nBirleşilgen künlerde.\nUnutmayıp — eyi söznen\nHatırlañız meni de."
+    "text": "Українська мова — Ukrayin tili\nТак — Ebet\nНі — Yoq\nПривіт! — Selâm! / Meraba!\nЯк справи? — İşler nasıl?\nЛаскаво просимо! — Hoş keldiñiz!\nДо побачення! — Sağlıqnen qalıñız! (кажуть тому, хто залишається), Sağlıqnen barıñız! (кажуть тому, хто йде)\nБудь ласка — Lütfen, Rica etem \nДякую — Sağ oluñız\nДаруйте — Bağışlañız\nПробачте — Afu etiñiz\nЯк вас звати? — Adıñız ne?\nСкільки? — Qaç?, Ne qadar?\nЯ (вас) не розумію. — Men (sizni) añlamayım.\nВи розмовляєте українською мовою? — Siz ukrayince laf etesiñizmi?\nЯ не знаю. — Men bilmeyim"
   },
 
   "cities": {
     "name": "Міста",
     "isEssential": true,
-    "text": "Qırım (Крим), Aqyar (Севастополь), Aqmescit (Сімферополь), Kezlev (Євпаторія), Kefe (Феодосія), Keriç (Керч), Qarasuvbazar (Білогірськ), Qurman (1944-2023 — Красногвардійське), Yañı Qapu (до 2023 — Красноперекопськ), İlbav (Львів), Qız Yar (до 1815; Мелітополь), İslâm Kermen (до XVIII ст.; Каховка)"
+    "text": "Qırım — Крим\nAqyar — Севастополь\nAqmescit — Сімферополь\nKezlev — Євпаторія\nKefe — Феодосія\nKeriç — Керч\nQarasuvbazar — Білогірськ\nQurman — Красногвардійське (1944-2023)\nYañı Qapu — Красноперекопськ (до 2023)\nİlbav — Львів\nQız Yar (до 1815) — Мелітополь\nİslâm Kermen (до 18 ст.) —  Каховка"
+  },
+
+  "lviv": {
+    "name": "Львів",
+    "isEssential": true,
+    "text": "İlbav ya da Lviv (ukrayince Львів) - Ukrayinanıñ ğarbında büyük bir şeerdir, İlbav vilâyetiniñ merkezi."
+  },
+
+  "zapovit": {
+    "name": "Заповіт",
+    "isEssential": true,
+    "text": "Vasiyet\n\nÖlsem, meni kömüñiz\nUkrayinamnıñ bağrına,\nMezarımnı qazıñız\nQulan çöl toprağına.\nBileyim men qurğannıñ\nKöksünde yatqanımnı,\nDiñleyim Dneprniñ\nQuturıp aqqanını.\nNe vaqıt o duşman qanın\nUkrayina üzerinden\nYuvıp keter… tek o zaman\nTurarım men qabrimden —\nDua etip tek o zaman\nÇıqarım arş-alâğa,\nOña qadar mende yoqtır\nİşanç Alla-Taalâğa.\nMeni cıyıp, qalqıñız ve\nÜzüñiz buğavlarnı,\nZalım duşman qanı ile\nYuvuñız diyarlarnı,\nUlu, ür bir ailege\nBirleşilgen künlerde.\nUnutmayıp — eyi söznen\nHatırlañız meni de."
   },
   
  
